@@ -1,1 +1,62 @@
+body{
+    margin: 0;
+}
+.bannermindG{
+    position: relative;
+    background: url(./images/call-to-action-mobile.jpeg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100% ;
+    background-position: center;
+    height: 550px;
+    
+}
+.bannermindG .bannertitleG {
+    font-size: 3rem;
+}
+.bannermindG .bannerparG{
+    font-size: 1.5rem;
+    line-height: 35px;
+}
+.layerbannerG{
+    background-color: rgba(117, 78, 249, 0.7);
+    width: 100%;
+    height: 100%;
+    
 
+}
+
+
+.buttonmindG{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    font-size: 1.3rem;
+}
+.buttonG{
+    text-decoration: none;
+    color: white;
+    width: fit-content;
+    border: 1px solid white;
+    padding: 15px 35px 15px 35px;
+    border-radius: 30px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+
+}
+#downloadG{
+    color: rgb(117,78,249);
+    background-color: white;
+}
+
+#hiremeG{
+    padding-left: 70px;
+    padding-right: 70px;
+}
