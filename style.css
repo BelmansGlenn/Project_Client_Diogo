@@ -1,1 +1,75 @@
+@font-face {
+    font-family: 'LineIcons';
+    src: url(fonts/LineIcons.ttf);
+    src: url(fonts/LineIcons.woff);
+    src: url(fonts/LineIcons.eot);
+}
 
+/* ---------------Header-------------- */ 
+header{
+    background-color: #FBFBFB;
+    box-shadow: inset 0px 10px 10px #898BA1;
+    position: relative;
+    
+}
+header .hdrbg img:first-child{
+    width: 10%;
+    position: absolute;
+    top: -15px;
+}
+header .hdrbg img:nth-child(2){
+    width: 10%;
+    position: absolute;
+    top: 10px;
+    right: 10px
+}
+header .hdrbg img:nth-child(3){
+    width: 10%;
+    position: absolute;
+    top: 60%;
+    right: 10px
+}
+header .hdrbg img:nth-child(4){
+    width: 20%;
+    position: absolute;
+    top: -10px;
+    right: 40%
+}
+header .hdrcontent{
+    padding-top: 150px;
+    padding-left: 20px;
+}
+header h1{
+    font-family: 'LineIcons';
+    color: #31343B;
+    text-transform: uppercase;
+}
+header h2{
+    color: #8234db;
+    text-transform: uppercase;
+}
+header h3{
+    color: #898BA1;
+}
+header a button{
+    background-color: #8234db;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    text-transform: uppercase;
+    height: 2rem;
+    padding: 0 2rem;
+}
+header ul{
+    display: flex;
+    color: #898BA1;
+}
+header ul li{
+    border: solid #898ba1c4 1px;
+    border-radius: 50%;
+    list-style: none;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    vertical-align: baseline;
+}
