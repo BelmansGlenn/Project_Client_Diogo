@@ -4,14 +4,40 @@
     src: url(LineIcons.woff), url(LineIcons.svg) url(LineIcons.ttf);
 }
 
-body{
-    font-family: 'FontCLient';
+body {
+    font-family: "FontCLient";
 }
-.cardX{
+.cardX {
     box-shadow: 0 0px 1px 0;
     border-radius: 5px;
-
+    text-align: center;
+    margin-bottom: 20px;
+    color: #8a90a2;
 }
-.cardX:hover{
+.cardX:hover {
     box-shadow: 0 0 10px 0;
+}
+.SevicesX {
+    
+}
+.fas {
+    color: #754ef9;
+    margin-top: 1px;
+}
+section{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+p{
+    margin-top: 0;
+    margin-bottom: ;
+}
+#flex-containerX{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
 }
