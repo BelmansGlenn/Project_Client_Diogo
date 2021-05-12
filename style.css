@@ -1,16 +1,8 @@
-@font-face {
-    font-family: 'LineIcons';
-    src: url(fonts/LineIcons.ttf);
-    src: url(fonts/LineIcons.woff);
-    src: url(fonts/LineIcons.eot);
-}
-
 /* ---------------Header-------------- */ 
 header{
     background-color: #FBFBFB;
-    box-shadow: inset 0px 10px 10px #898BA1;
+    box-shadow: inset 0px 15px 20px -10px  rgba(0, 0, 0, 0.144);
     position: relative;
-    
 }
 header .hdrbg img:first-child{
     width: 10%;
@@ -26,7 +18,7 @@ header .hdrbg img:nth-child(2){
 header .hdrbg img:nth-child(3){
     width: 10%;
     position: absolute;
-    top: 60%;
+    top: 50%;
     right: 10px
 }
 header .hdrbg img:nth-child(4){
@@ -34,6 +26,38 @@ header .hdrbg img:nth-child(4){
     position: absolute;
     top: -10px;
     right: 40%
+}
+header .hdrbg img:nth-child(5){
+    width: 10%;
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    z-index: 1;
+}
+header .hdrbg img:nth-child(6){
+    width: 28%;
+    position: absolute;
+    bottom: 0;
+    left: 10px;
+    
+}
+header .hdrbg img:nth-child(7){
+    width: 20%;
+    position: absolute;
+    bottom: 0;
+    right: 20px
+}
+header .hdrbg img:nth-child(8){
+    width: 20%;
+    position: absolute;
+    top: 66%;
+    right: -10px
+}
+header .hdrbg img:last-child{
+    width: 20%;
+    position: absolute;
+    top: 75%;
+    left: 10%;
 }
 header .hdrcontent{
     padding-top: 150px;
@@ -43,16 +67,20 @@ header h1{
     font-family: 'LineIcons';
     color: #31343B;
     text-transform: uppercase;
+    position: relative;
+    z-index: 100;
 }
 header h2{
-    color: #8234db;
+    color: #754ef9;
     text-transform: uppercase;
 }
 header h3{
     color: #898BA1;
+    position: relative;
+    z-index: 103;
 }
 header a button{
-    background-color: #8234db;
+    background-color: #754ef9;
     border: none;
     border-radius: 20px;
     color: white;
@@ -60,9 +88,16 @@ header a button{
     height: 2rem;
     padding: 0 2rem;
 }
+
 header ul{
     display: flex;
     color: #898BA1;
+    padding: 100px 0 0 0;
+    position: relative;
+    z-index: 10;
+    justify-content:flex-start;
+    width: 100%;
+    align-items: center;
 }
 header ul li{
     border: solid #898ba1c4 1px;
@@ -70,6 +105,29 @@ header ul li{
     list-style: none;
     width: 25px;
     height: 25px;
-    text-align: center;
-    vertical-align: baseline;
+    margin: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.purpleLine{
+    border: 1px #754ef9 solid;
+    height: 0;
+    width: 5%;
+}
+
+/* ------ Btn More Work -------- */ 
+.moreWork{
+    display: flex;
+    justify-content: center;
+}
+.moreWork a button{
+    background-color: #754ef9;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    text-transform: uppercase;
+    height: 2rem;
+    padding: 0 2rem;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.568);
 }
