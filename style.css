@@ -1,1 +1,96 @@
+*{
+	margin: 0;
+	padding:0;
+	box-sizing: border-box;
+}
+
+.navbar{
+	padding: 30px 15px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.logo img{
+	width: 350px;
+}
+
+.menu{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.navigation{
+	visibility: hidden;
+	margin-right: 20px;
+	list-style: none;
+	display: flex;
+}
+
+.navigation a {
+	padding-right: 10px; 
+	text-decoration: none;
+	color: #a6aab8;
+}
+
+/*.links{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	display: none;
+}*/
+
+
+
+/*HAMBURGER*/
+
+
+.roll {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.hamburger{
+	margin: 0;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 80px;
+	height: 80px;
+	cursor: pointer;
+}
+
+.hamburger-btn{
+	width: 60px;
+	height: 3px;
+	background: black;
+	transition: all 0s ease-in-out;
+}
+
+.hamburger-btn::before,
+.hamburger-btn::after{
+	content: '';
+	position: absolute;
+	width: 60px;
+	height: 3px;
+	background: black;
+	transition: all .5s ease-in-out;
+}
+
+.hamburger-btn::before{
+	transform: translateY(-12px);
+}
+
+.hamburger-btn::after{
+	transform: translateY(12px);
+}
+
+
+
+
+
+
 
