@@ -1,1 +1,17 @@
+@font-face {
+    font-family: FontCLient;
+    src: url(LineIcons.eot);
+    src: url(LineIcons.woff), url(LineIcons.svg) url(LineIcons.ttf);
+}
 
+body{
+    font-family: 'FontCLient';
+}
+.cardX{
+    box-shadow: 0 0px 1px 0;
+    border-radius: 5px;
+
+}
+.cardX:hover{
+    box-shadow: 0 0 10px 0;
+}
