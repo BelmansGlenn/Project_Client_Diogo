@@ -22,7 +22,6 @@
     src: url("LineIcons.woff") format("woff"), /* Pretty Modern Browsers */ url("LineIcons.ttf") format("truetype"),
         /* Safari, Android, iOS */ url("LineIcons.svg") format("svg"); /* Legacy iOS */
 }
-
 body {
     font-family: "Font-Solid";
 }
