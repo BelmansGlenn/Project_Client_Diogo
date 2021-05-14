@@ -1,1 +1,80 @@
+@media only screen and (max-width: 769px) {
+  .fullsection {
+    padding: 10px;
+    background-color: #fbfbfb;
+  }
+  /* Icons */
+  .lni {
+    color: #754ef9;
+  }
+  /* TEXT */
+  .intro {
+    text-align: center;
+  }
+  .header {
+    color: #31343b;
+  }
+  .paragraphC {
+    color: #8a90a2;
+  }
+  /* Cards */
+  .cardMain {
+    background-color: #ffffff;
+    box-shadow: 0 0px 1px 0;
+    font-size: large;
+    padding: 15px;
+    margin-bottom: 25px;
+    text-align: center;
+  }
+  .cardContact {
+    width: 100%;
+    background-color: #ffffff;
+    border-radius: 1px;
+    box-shadow: 0 0px 1px 0;
+    padding: 15px;
+    margin-bottom: 25px;
+    text-align: center;
+  }
+  .cardMap {
+    background-color: #ffffff;
+    box-shadow: 0 0px 1px 0;
+    font-size: large;
+    padding: 15px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 3px 2px 24px -7px black;
+  }
+  /* Form  */
+  input[type="submit"] {
+    color: #ffffff;
+    background-color: #754ef9;
+    padding: 15px 45px;
+    border-radius: 26px;
+    border: none;
+    font-weight: bolder;
+    box-shadow: 0px 10px 10px -10px black;
+  }
+  input[type="text"],
+  select,
+  textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  textarea {
+    height: 100px;
+  }
 
+  /* Map */
+  iframe {
+    height: 350px;
+    width: 100%;
+  }
+}
