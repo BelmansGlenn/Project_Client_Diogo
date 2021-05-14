@@ -15,8 +15,102 @@ p .mediabr{
     display: none;
 }
 
+/*.body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(251, 251, 251);
+  }*/
+  .brdesktop{
+      display: none;
+  }
+  .progressMP{
+      padding: 30px 30px 60px 30px;    /*change*/
+      font-size: 1.2rem;
+  }
+  .personalInfo{
+    margin-bottom: 60px;
+  }
+  .lni {
+    color: #754ef9;
+  }
+  .infomp{
+      display: flex;
+      height: 40px;
+      
+  }
+  .infomp i{
+      display: flex;
+      align-items: flex-end;
+      padding-right: 10px;
+  }
+  /*text */
+  .detail {
+    color: #31343b;
+  }
+  .pline{
+      line-height: 35px;
+  }
+  p {
+    color: #8a90a2;
+  }
 
-@media (min-width: 769px) {
+  /* SKILLS */
+ 
+  progress {
+    box-sizing: border-box;
+    display: inline-block;
+    width: 100%;
+    height: 1em;
+    margin: 0;
+    background: none;
+    border-radius: 15px;
+    vertical-align: -0.2em;
+  }
+  progress::-webkit-progress-bar {
+    height: 8px;
+    margin: 0 auto;
+    background-color: #ccc;
+    border-radius: 15px;
+  }
+  progress::-webkit-progress-value {
+    float: left;
+    height: 8px;
+    background: #754ef9;
+    border-radius: 15px;
+  }
+  progress:after {
+    padding: 0;
+    float: left;
+  }
+  .card-title {
+    display: flex;
+    justify-content: space-between;
+  }
+
+
+
+@media (min-width: 800px) {
+    .section1mp{
+        display: flex;
+        justify-content: space-around;
+    }
+    .personalInfo{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        margin-bottom: 40px;
+    }
+    .Skills{
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+}
+
+
+
+
+@media (min-width: 1120px) {
     .br{
         display: none;
     }
@@ -25,5 +119,40 @@ p .mediabr{
     }
     .aboutmeG{
         font-size: 1rem;
+    }
+    .brtel{
+        display: none;
+    }
+    .brdesktop{
+        display: block;
+    }
+    .progressMP{
+        display: flex;
+        justify-content: center;
+    }
+    .section1mp{
+        display: inline-block;
+        padding-right: 20px;
+        width: max-content;
+    }
+    .personalInfo{
+        margin-bottom: 60px;
+    }
+    .personal1{
+        display: flex;
+    }
+    
+    .personal2{
+        display: flex;
+        
+    }
+    .infomp{
+        padding-right: 20px;
+    }
+    
+    .Skills{
+        width: 30%;
+        padding-left: 20px;
+        margin: 0;
     }
 }
