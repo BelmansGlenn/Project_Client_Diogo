@@ -1,0 +1,19 @@
+.blogText h1{
+    text-align: center;
+}
+.blogText p{
+    text-align: center;
+}
+.blogText{
+    padding: 0 20px
+}
+
+@media screen and (min-width: 769px){
+    .blogText{
+        display: flex;
+        justify-content: center;
+    }
+    .blogText div{
+        width: 50%;
+    }
+}
