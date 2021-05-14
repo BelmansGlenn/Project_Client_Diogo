@@ -1,0 +1,25 @@
+@font-face {
+    font-family: "Font-Solid";
+    src: url("LineIcons.eot"); /* IE9 Compat Modes */
+    src: url("LineIcons.woff") format("woff"), /* Pretty Modern Browsers */ url("LineIcons.ttf") format("truetype"),
+        /* Safari, Android, iOS */ url("LineIcons.svg") format("svg"); /* Legacy iOS */
+}
+
+button{
+    font-family: "Font-Solid";
+    border-radius: 16px;
+    color: #ffff;
+    outline: none;
+    border: 0;
+    background-color: #754ef9;
+    /* width: 25%; */
+    font-size: 45px;
+}
+.buttonX{
+    display: flex;
+    justify-content: space-around;
+    filter:drop-shadow(1px 1px 3px rgb(117,78,249));
+}
+p{
+    font-size: 5px;
+}
