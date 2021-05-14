@@ -1,0 +1,78 @@
+.cardX {
+    box-shadow: 0 0px 1px 0;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #8a90a2;
+    background-color: white;
+
+}
+.cardX:hover {
+    box-shadow: 0 0 10px 0;
+}
+
+.fas {
+    color: #754ef9;
+}
+.sectionservice{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#flex-containerX{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    background-color: rgb(251,251,251);
+    font-size: 1.2rem;
+    padding-bottom: 100px;
+    padding-top: 60px;
+}
+.deskservice{
+    display: none;
+}
+.padservicep{
+    margin-top: 0px;
+}
+.serviceh4{
+    color: black;
+}
+.serviceh1{
+    font-size: 2.5rem;
+}
+.cardContainerX{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+@media (min-width:1000px){
+    .telservice{
+        display: none;
+    }
+    .deskservice{
+        display: block;
+    }
+    #flex-containerX{
+        font-size: 1rem;
+    }
+    .cardX{
+        width: 300px;
+        margin-right: 30px;
+    }
+    #margincard{
+        margin-right: 0;
+    }
+
+    .flex3{
+        display: flex;
+    }
+    .flex3b{
+        display: flex;
+
+    }
+
+}
