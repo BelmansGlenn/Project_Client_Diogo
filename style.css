@@ -1,1 +1,47 @@
 
+/* -----------Blog Images-------------*/
+.blogImg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.blogImg img{
+    width: 300px;
+    height: 300px;
+    border-radius: 2%;
+}
+.blogImg figure{
+    position: relative;
+    box-shadow: rgba(189, 186, 186, 0.671) -1px 1px 3px ;
+    border-radius: 0 0 0 5%;
+    margin: 10px;
+}
+.blogImg figcaption{
+    position: absolute;
+    bottom : 3px;
+    background-color: white;
+    width: 75%;
+}
+.blogImg figure p:nth-child(2){
+    color: gray;
+    font-size: small;
+}
+.blogImg figure p:first-child{
+    color: rgb(44, 44, 44);
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+@media screen and (min-width: 769px) {
+    .blogImg{
+        flex-direction: row;
+        justify-content: center;
+    }
+    .blogImg img{
+        width: 200px;
+        height: 200px;
+    }
+    .blogImg figure p:first-child{
+        font-size: small;
+    }
+}
