@@ -1,0 +1,120 @@
+body{
+    margin: 0;
+}
+.bannermindG{
+    position: relative;
+    background: url(./images/call-to-action-mobile.jpeg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100% ;
+    background-position: center;
+    height: 570px;
+    
+}
+.bannermindG .bannertitleG {
+    font-size: 2.5rem;
+}
+.bannermindG .bannerparG{
+    font-size: 1.2rem;
+    line-height: 35px;
+    color: white;
+}
+.layerbannerG{
+    padding-top: 50px;
+    background-color: rgba(117, 78, 249, 0.7);
+    width: 100%;
+    height: 570px;
+    
+
+}
+
+
+.buttonmindG{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    font-size: 1.3rem;
+}
+.buttonG{
+    text-decoration: none;
+    color: white;
+    width: fit-content;
+    border: 1px solid white;
+    padding: 15px 35px 15px 35px;
+    border-radius: 30px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+
+}
+.downloadG{
+    color: rgb(117,78,249);
+    background-color: white;
+}
+#downloadG:hover{
+    transform: scale(1.1);
+}
+
+
+#hiremeG{
+    padding-left: 70px;
+    padding-right: 70px;
+}
+#hiremeG:hover{
+    transform: scale(1.1);
+}
+
+@media (min-width: 769px){
+    .bannermindG{
+        background: url(./images/call-to-action.jpg);
+        background-size: 100% 330px;
+        background-repeat: no-repeat;
+        display: block;
+    }
+    .layerbannerG{
+        height: 330px;
+        padding-top: 0px;
+    }
+    .bannertitleG{
+        margin-top: 0px;
+        padding-top: 80px;
+    }
+    .telmind{
+        display: none;
+    }
+    .bannermindG .bannertitleG {
+        font-size: 2rem;
+    }
+    .bannermindG .bannerparG{
+        font-size: 1rem;
+        line-height: 25px;
+    }
+    .bannerparG{
+        margin-bottom: 0;
+    }
+    .buttonmindG{
+        display: flex;
+        flex-direction: row;
+        font-size: 0.8rem;
+        margin-top: 10px;
+    }
+    #downloadG{
+        margin-right: 30px;
+        padding: 10px 25px;
+    }
+    #hiremeG{
+        padding: 10px 50px;
+    }
+}
+@media (min-width: 1100px){
+    .bannermindG{
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+}
