@@ -1,1 +1,52 @@
-
+@media only screen and (max-width: 600px) {
+  .body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(251, 251, 251);
+  }
+  .lni {
+    color: #754ef9;
+  }
+  /*text */
+  span,
+  h3 {
+    margin-bottom: 2%;
+    font-weight: bold;
+    color: #31343b;
+  }
+  p {
+    color: #8a90a2;
+  }
+  /* SKILLS */
+  progress {
+    box-sizing: border-box;
+    display: inline-block;
+    width: 100%;
+    height: 1em;
+    margin: 0;
+    background: none;
+    border-radius: 15px;
+    vertical-align: -0.2em;
+  }
+  progress::-webkit-progress-bar {
+    height: 8px;
+    margin: 0 auto;
+    background-color: #ccc;
+    border-radius: 15px;
+  }
+  progress::-webkit-progress-value {
+    float: left;
+    height: 8px;
+    background: #754ef9;
+    border-radius: 15px;
+  }
+  progress:after {
+    padding: 0;
+    float: left;
+  }
+  .card-title {
+    display: flex;
+    justify-content: space-between;
+  }
+}
