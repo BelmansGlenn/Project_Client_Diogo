@@ -1,43 +1,75 @@
 @font-face {
-    font-family: FontCLient;
+    font-family: "FontCLient";
     src: url(LineIcons.eot);
-    src: url(LineIcons.woff), url(LineIcons.svg) url(LineIcons.ttf);
+    src: url(LineIcons.woff) format('woff'), url(L) format('svg'), url(LineIcons.ttf) format('truetype');
+}
+/* fonts */
+@font-face {
+    font-family: 'Font-Brands';
+    src: url('LineIcons.eot'); /* IE9 Compat Modes */
+    src: url('LineIcons.woff') format('woff'), /* Pretty Modern Browsers */
+         url('LineIcons.ttf')  format('truetype'), /* Safari, Android, iOS */
+         url('LineIcons.svg') format('svg'); /* Legacy iOS */
+}
+@font-face {
+    font-family: 'Font-Regular';
+    src: url('LineIcons.eot'); /* IE9 Compat Modes */
+    src: url('LineIcons.woff') format('woff'), /* Pretty Modern Browsers */
+         url('LineIcons.ttf')  format('truetype'), /* Safari, Android, iOS */
+         url('LineIcons.svg') format('svg'); /* Legacy iOS */
+}
+@font-face {
+    font-family: 'Font-Solid';
+    src: url('LineIcons.eot'); /* IE9 Compat Modes */
+    src: url('LineIcons.woff') format('woff'), /* Pretty Modern Browsers */
+         url('LineIcons.ttf')  format('truetype'), /* Safari, Android, iOS */
+         url('LineIcons.svg') format('svg'); /* Legacy iOS */
 }
 
+
+
 body {
-    font-family: "FontCLient";
+    font-family: 'Font-Solid';
 }
-.cardX {
-    box-shadow: 0 0px 1px 0;
-    border-radius: 5px;
-    text-align: center;
-    margin-bottom: 20px;
-    color: #8a90a2;
-}
-.cardX:hover {
-    box-shadow: 0 0 10px 0;
-}
-.SevicesX {
-    
-}
-.fas {
-    color: #754ef9;
-    margin-top: 1px;
-}
-section{
+#flexContainerX{
     display: flex;
-    text-align: center;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
+    align-items: center;
+    background-color: #162235;
 }
-p{
-    margin-top: 0;
-    margin-bottom: ;
+
+.UnfoldX{
+    text-align: center;
+    color: #bebebe ;
 }
-#flex-containerX{
+
+#btnContX{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #162235;
+}
+button{
+    border-radius: 25px;
+    background-color: #1d2a40;
+/*     margin-right: 17px; */
+    outline: none;
+    border: 0;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-flow: column;
+    width:fit-content;
+}
+i{
+    color: #bebebe ;
+    font-size: 0.25rem;
+
+/*     align-items: center;
+    justify-content: center;*/
+}
+.btnSpBtwnX{
+    display: flex;
+    justify-content: space-between;
 }
