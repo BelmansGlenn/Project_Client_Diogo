@@ -66,7 +66,7 @@
     cursor: pointer;
 }
 
-@media screen and (min-width: 769px){
+@media (min-width: 769px){
     .blogText{
         display: flex;
         justify-content: center;
@@ -92,8 +92,8 @@
     }
     .textrecentwork{
         font-size: 1rem;
-        margin-right: 130px;
         padding-bottom: 20px;
+        margin-right: 130px;
     }
     .deskwork{
         display: block;
