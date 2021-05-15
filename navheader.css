@@ -24,7 +24,6 @@ body {
     overflow: hidden;
     background-color: #fff;
   }
-  
   .nav li a {
     display: block;
     padding: 20px 20px;
@@ -293,7 +292,7 @@ header ul li:hover{  /*change*/
 
 
 /* MEDIA QUERIES */
-  /* 920px */
+  /* 935px */
   
   @media (min-width: 935px) {
 
@@ -309,6 +308,20 @@ header ul li:hover{  /*change*/
     .nav ul{
         padding-top: 50px;
     }
+    .nav li a {
+        position: relative;
+    }
+    .nav li a .bordervert{
+        position: absolute;
+        height: 40px;
+        border: 1px solid rgb(153,125,251,0);
+        left: 50%;
+        bottom: 80%;
+    }
+    .nav li a:hover .bordervert{
+        border: 1px solid rgb(153,125,251,1);
+    }
+    
   /*.nav li {
   }*/
     .nav li a {
