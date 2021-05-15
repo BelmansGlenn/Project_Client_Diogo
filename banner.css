@@ -76,6 +76,7 @@ body{
         background-size: 100% 330px;
         background-repeat: no-repeat;
         display: block;
+        height: fit-content;
     }
     .layerbannerG{
         height: 330px;
