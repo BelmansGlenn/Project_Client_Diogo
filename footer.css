@@ -1,0 +1,93 @@
+
+/* ------------ Footer ------------*/
+footer{
+    background-color: #162336 ;
+    color: white;
+    padding-top: 100px;
+}
+footer div:first-child{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+footer img{
+    width: 150px;
+    margin-bottom: 30px;
+} 
+footer div:first-child p {
+    padding: 0 30px;
+}
+footer ul{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    padding-bottom: 60px;
+}
+footer li{
+    background-color: #1E2A40;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    margin: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+footer li:hover{
+    opacity: 0.5;
+}
+footer li a i{
+    color: rgb(190,190,190);
+}
+footer div:nth-child(2){
+    background-color: #1E2A40;
+    padding: 1rem ;
+    font-size: small;
+    text-align: center;
+}
+.whitep{
+    line-height: 35px;
+    color: white;
+    font-size: 1.2rem;
+}
+.footbr{
+    display: none;
+}
+.footrel{
+    position: relative;
+}
+#chev{
+    position: absolute;
+    color: rgb(190,190,190);
+    right: 30px;
+    bottom: 30%;
+    border: 1px solid rgb(190,190,190);
+    padding: 10px;
+    border-radius: 50%;
+    z-index: -1;
+}
+
+@media screen and (min-width: 769px) {
+    footer div:first-child p{
+        width: 66%;
+    }
+    footer li{
+        width: 50px;
+        height: 50px;
+        margin: 0.75rem;
+    }
+    .whitep{
+        font-size: 1rem;
+    }
+    .footbr{
+        display: block;
+    }
+    #chev{
+        z-index: 1;
+    }
+    .lastline{
+        margin: 0px;
+    }
+}
