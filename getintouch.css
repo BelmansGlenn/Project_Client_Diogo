@@ -93,9 +93,8 @@
   
   /* Map */
   iframe {
-    height: 350px;
+    height: 450px;
     width: 100%;
-    height: 300px;
   }
   @media screen and (min-width: 769px) {
     .fullsection .cards {
