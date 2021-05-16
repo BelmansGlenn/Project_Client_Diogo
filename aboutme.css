@@ -4,7 +4,7 @@
     justify-content: center;
     flex-direction: column;
     line-height: 35px;
-    margin-top: 30px;
+    padding-top: 60px;
     font-size: 1.2rem;
 }
 .aboutmeParagraphG{
@@ -88,9 +88,20 @@ p .mediabr{
     justify-content: space-between;
   }
 
-
-
-@media (min-width: 800px) {
+  @media (min-width:769px){
+    .br{
+        display: none;
+    }
+    p .mediabr{
+        display: block;
+    }
+    .aboutmeG .aboutmeParagraphG{
+        font-size: 1rem;
+        padding-bottom: 0;
+    }
+    .progressMP{
+        font-size: 1rem;
+    }
     .section1mp{
         display: flex;
         justify-content: space-around;
@@ -105,21 +116,18 @@ p .mediabr{
         margin-left: 15%;
         margin-right: 15%;
     }
+    .infomp i{
+        align-items: center;
+        padding-top: 10px;
+    }
 }
 
 
 
 
-@media (min-width: 1120px) {
-    .br{
-        display: none;
-    }
-    p .mediabr{
-        display: block;
-    }
-    .aboutmeG{
-        font-size: 1rem;
-    }
+@media (min-width: 900px) {
+
+
     .brtel{
         display: none;
     }
