@@ -18,6 +18,7 @@
 .h1work{
     margin-bottom: 10px;
     font-size: 2.5rem;
+    margin-top: 33px;
 }
 .deskwork{
     display: none;
@@ -92,7 +93,7 @@
     }
     .textrecentwork{
         font-size: 1rem;
-        padding-bottom: 20px;
+        padding-bottom: 45px;
         margin-right: 130px;
     }
     .deskwork{
