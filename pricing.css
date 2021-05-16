@@ -165,14 +165,17 @@ button#getQuoteX:hover{
 
 
 @media screen and (min-width: 1000px){
-    .containerX{
-        margin-left: 40px;
-        margin-right: 40px;
-    }
+  
     #cardY{
         width: 300px;
     }
     #cardZ{
         width: 300px;
+    }
+}
+@media screen and (min-width: 1100px){
+    .containerX{
+        margin-left: 40px;
+        margin-right: 40px;
     }
 }
