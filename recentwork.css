@@ -100,7 +100,7 @@
     .textrecentwork{
         font-size: 1rem;
         padding-bottom: 45px;
-        margin-right: 130px;
+        margin-right: 50px;
     }
     .deskwork{
         display: block;
@@ -126,7 +126,7 @@
         height: 300px;
     }
     .textrecentwork{
-        margin-right: 330px;
+        margin-right: 250px;
     }
 
 }
