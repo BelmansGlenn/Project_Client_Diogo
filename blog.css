@@ -11,14 +11,14 @@
 .blogImg img{
     width: 100%;
     border-radius: 10px;
-    height: 405px;
+    height: auto;
 }
 .blogImg figure{
     position: relative;
     box-shadow: rgba(189, 186, 186, 0.671) -1px 1px 3px ;
     width: 100%;
     border-radius: 10px;
-    height: 405px;
+    height: auto;
     margin: 0;
     margin-bottom: 30px;
 }
@@ -57,7 +57,7 @@
     }
     .blogImg figure{
         width: fit-content;
-        height: 230px;
+        height: auto;
         margin-right: 30px;
         margin-bottom: 0;
     }
@@ -66,7 +66,7 @@
     }
     .blogImg img{
         width: 230px;
-        height: 230px;
+        height: auto;
     }
     .blogImg figure p:first-child{
         font-size: 0.9rem;
@@ -93,11 +93,11 @@
 }
 @media screen and (min-width: 1000px){
     .blogImg figure{
-        height: 300px;
+        height: auto;
         margin-right: 40px;
     }
     .blogImg img{
         width: 300px;
-        height: 300px;
+        height: auto;
     }
 }
