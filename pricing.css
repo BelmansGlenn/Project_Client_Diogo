@@ -118,6 +118,14 @@ button#getQuoteX:hover{
 .prbottomG{
     padding-bottom: 60px;
 }
+@media (min-width: 100px) and (max-width: 480px){
+    .containerX{
+        font-size: 0.8rem;
+    }
+    .priceX h1{
+        font-size: 2rem;
+    }
+}
 
 @media  screen and (min-width: 769px) {
     div.cardContX{
@@ -150,6 +158,7 @@ button#getQuoteX:hover{
         margin-bottom: 0;
     }
 }
+
 @media (min-width: 769px) and (max-width:1000px){
     #cardY{
         margin-right: 30px;

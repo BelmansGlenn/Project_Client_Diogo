@@ -88,6 +88,18 @@ p .mediabr{
     justify-content: space-between;
   }
 
+  @media (min-width: 100px) and (max-width: 480px){
+      .progressMP{
+          font-size: 0.8rem;
+      }
+      .aboutmeG{
+          font-size: 0.8rem;
+      }
+      .infomp i {
+          align-items: center;
+      }
+  }
+
   @media (min-width:769px){
     .br{
         display: none;

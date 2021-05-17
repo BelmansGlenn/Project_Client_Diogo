@@ -69,7 +69,11 @@ footer div:nth-child(2){
     border-radius: 50%;
     z-index: -1;
 }
-
+@media (min-width: 100px) and (max-width: 480px){
+    .whitep{
+        font-size: 0.8rem;
+    }
+}
 @media screen and (min-width: 769px) {
     footer div:first-child p{
         width: 66%;

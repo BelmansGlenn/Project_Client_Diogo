@@ -45,6 +45,14 @@
 .blogall{
     padding-top: 60px;
 }
+@media (min-width: 100px) and (max-width: 480px){
+    .blogImg figure p:nth-child(2){
+        font-size: 0.8rem;
+    }
+    .blogImg figure p:first-child{
+        font-size: 0.8rem;
+    }
+}
 
 @media screen and (min-width: 769px) {
     .blogImg{
