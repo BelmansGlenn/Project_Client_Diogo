@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="navheader.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
         integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
     <link href="https://cdn.lineicons.com/2.0/LineIcons.css" rel="stylesheet" />
@@ -19,6 +21,7 @@
     <link rel="stylesheet" href="footer.css">
     <title>Mark Parker</title>
     <link rel="shortcut icon" type="image/jpg" href="images/favicon.png"/>
+    <script src="script.js"></script>
 </head>
 
 <body>
@@ -59,13 +62,20 @@
             <h2 class="marginleft">Hello, I'm</h2>
             <h1 class="marginleft">Mark Parker</h1>
             <h3 class="marginleft">A Freelance UI Designer & Web Developer</h3>
-            <a href="#"><button class="marginleft">View my work</button></a>
+            <a href="#Portfolio"><button class="marginleft">View my work</button></a>
             <ul>
                 <div class="barremauve"></div>
-                <li><i class="fab fa-facebook-f"></i></li>
-                <li><i class="fab fa-twitter"></i></li>
-                <li><i class="fab fa-behance"></i></li>
-                <li><i class="fab fa-linkedin-in"></i></li>
+                <li><a href="https://www.facebook.com"
+                    target="_blank" style="text-decoration: none"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href="https://www.twitter.com"
+                    target="_blank"
+                    style="text-decoration: none"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="https://www.behance.net"
+                    target="_blank"
+                    style="text-decoration: none"><i class="fab fa-behance"></i></a></li>
+                <li><a href="https://www.linkedin.com"
+                    target="_blank"
+                    style="text-decoration: none"><i class="fab fa-linkedin-in"></i></a></li>
             </ul>
         </div>
     </header>
@@ -229,8 +239,8 @@
             <h1 class="bannertitleG">Have any project on <br class="telmind">mind?</h1>
             <p class="bannerparG">Lorem ipsum dolor sit amet consectetur <br class="telmind">adipisicing elit, sed do eiusmod tempor incididunt <br>ut labore et dolore magna aliqua nostrud.</p>
             <div class="buttonmindG">
-                <a class="buttonG downloadG" id="downloadG" href="#">DOWNLOAD CV</a>
-                <a class="buttonG" id="hiremeG" href="#">HIRE ME</a>
+                <a class="buttonG downloadG" id="downloadG" href="./images/CV Mark Parker.png" download>DOWNLOAD CV</a>
+                <a class="buttonG" id="hiremeG" href="" onclick="funcalert()">HIRE ME</a>
             </div>
         </div>
     </section>
@@ -252,7 +262,7 @@
             </div>
         </section>
         <section class="moreWork">
-            <a href=""><button>More works</button></a>
+            <a href="" onclick="funcalert()"><button>More works</button></a>
         </section>
     </section>
     <section class="pricingpartG">
@@ -283,7 +293,7 @@
                             </ul>
                             <!--ask client for correct pricing and services per program!!--->
                         </div>
-                            <button class="getQuoteX">
+                            <button class="getQuoteX" onclick="funcalert()">
                                 GET QUOTE
                             </button>
                     </div>
@@ -310,7 +320,7 @@
                                 <!--ask client for correct pricing and services per program!!--->
                             </ul>
                         </div>
-                        <button class="getQuoteX" id="getQuoteX">
+                        <button class="getQuoteX" id="getQuoteX" onclick="funcalert()">
                             GET QUOTE
                         </button>
                     </div>
@@ -336,7 +346,7 @@
                             </ul>
                             <!--ask client for correct pricing and services per program!!--->
                         </div>
-                        <button class="getQuoteX">
+                        <button class="getQuoteX" onclick="funcalert()">
                             GET QUOTE
                         </button>
                     </div>
@@ -377,7 +387,7 @@
             </figure>
         </section>
         <section class="moreWork">
-            <a href=""><button>More posts</button></a>
+            <a href="" onclick="funcalert()"><button>More posts</button></a>
         </section>
     </section>
     <section class="fullsection" id="contactcontact">
@@ -442,7 +452,7 @@
               <textarea name="message" placeholder="Message" required></textarea>
   
               <br />
-              <input type="submit" value="SEND MESSAGE" class="submit" />
+              <input type="submit" value="SEND MESSAGE" class="submit" onclick="funcalert()"/>
             </form>
           </div>
           <br />
@@ -465,10 +475,17 @@
             <img src="./images/logo-2.png" alt="Unfold logo">
             <p class="whitep">Lorem, ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod tempor inci-<br>didunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exe- <br class="footbr">rcitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
             <ul>
-                <li><a href="#"><i class="fab fa-facebook-f fa-2x"></i></a></li>
-                <li><a href="#"><i class="fab fa-twitter fa-2x"></i></a></li>
-                <li><a href="#"><i class="fab fa-pinterest fa-2x"></i></a></li>
-                <li><a href="#"><i class="fab fa-linkedin-in fa-2x"></i></a></li>
+                <li><a href="https://www.facebook.com"
+                    target="_blank" style="text-decoration: none"><i class="fab fa-facebook-f fa-2x"></i></a></li>
+                <li><a href="https://www.twitter.com"
+                    target="_blank"
+                    style="text-decoration: none"><i class="fab fa-twitter fa-2x"></i></a></li>
+                <li><a href="https://www.pinterest.fr/"
+                    target="_blank"
+                    style="text-decoration: none"><i class="fab fa-pinterest fa-2x"></i></a></li>
+                <li><a href="https://www.linkedin.com"
+                    target="_blank"
+                    style="text-decoration: none"><i class="fab fa-linkedin-in fa-2x"></i></a></li>
             </ul>
         </div>
         <div class="footrel">
