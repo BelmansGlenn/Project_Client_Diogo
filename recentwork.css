@@ -67,6 +67,12 @@
     cursor: pointer;
 }
 
+@media (min-width: 100px) and (max-width: 480px){
+    .textrecentwork{
+        font-size: 0.8rem;
+    }
+}
+
 @media (min-width: 769px){
     .blogText{
         display: flex;

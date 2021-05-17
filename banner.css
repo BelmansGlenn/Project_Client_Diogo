@@ -69,6 +69,14 @@ body{
 #hiremeG:hover{
     transform: scale(1.1);
 }
+@media (min-width: 100px) and (max-width: 480px){
+    .bannermindG .bannertitleG{
+        font-size: 2rem;
+    }
+    .bannermindG .bannerparG{
+        font-size: 0.8rem;
+    }
+}
 
 @media (min-width: 769px){
     .bannermindG{
