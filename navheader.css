@@ -308,10 +308,13 @@ header ul li:hover{  /*change*/
         padding: 5px;
     }
     header ul{
-        padding-top: 130px;
+        padding-top: 110px;
     }
     #HH1{
         font-size: 2rem;
+    }
+    header .hdrbg img:nth-child(7){
+        top: 340px;
     }
   }
   @media (max-width: 330px){
@@ -370,19 +373,19 @@ header ul li:hover{  /*change*/
 
 
     header .hdrbg img:first-child{
-        top: 140px;
+        top: 160px;
         left: -7px;
     }
     header .hdrbg img:nth-child(10){
         z-index: 1;
-        top: 130px;
+        top: 150px;
     }
     header .hdrbg img:nth-child(4){
-        top: 140px;
+        top: 160px;
         left: 450px;
     }
     header .hdrbg img:nth-child(2){
-        top: 160px;
+        top: 180px;
         right: 150px;
     }
     header .hdrbg img:nth-child(6){
@@ -392,11 +395,11 @@ header ul li:hover{  /*change*/
 
     header .hdrbg img:nth-child(9){
         right: 35%;
-        top: 570px;
+        top: 585px;
     }
     header .hdrbg img:nth-child(8){
         left: 0px;
-        top: 520px;
+        top: 535px;
     }
 
     header .hdrbg img:nth-child(11){
