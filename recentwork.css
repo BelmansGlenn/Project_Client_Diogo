@@ -31,7 +31,7 @@
 }
 .workImg img{
     width: 100%;
-    height: 500px;
+    height: auto;
     margin-bottom: 60px;
 }
 .workImg div{
