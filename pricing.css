@@ -1,5 +1,5 @@
 .pricingpartG{
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 .h1price{
     font-size: 2.5rem;
@@ -12,7 +12,7 @@
     flex-direction: column;
     background-color: #fbfbfb;
     line-height: 35px;
-    font-size: 1.2rem;
+    font-size: 1rem;
     padding: 60px 30px;
 
 }
@@ -88,7 +88,7 @@ ul.contentX{
 .getQuoteX{
     color: white;
     margin-bottom: 15px;
-    font-size: 1.2rem;
+    font-size: 1rem;
     padding: 20px 40px;
     font-weight: bold;
 }
