@@ -27,7 +27,7 @@
     align-items: center;
     flex-flow: column;
     background-color: rgb(251,251,251);
-    font-size: 1.2rem;
+    font-size: 1rem;
     padding-bottom: 100px;
     padding-top: 60px;
 }
@@ -36,7 +36,7 @@
 }
 .padservicep{
     margin-top: 0px;
-    font-size: 1.2rem;
+    font-size: 1rem;
     padding-bottom: 60px;
 }
 .serviceh4{

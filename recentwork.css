@@ -10,7 +10,7 @@
 
 
 .textrecentwork{
-    font-size: 1.2rem;
+    font-size: 1rem;
     display: flex;
     flex-direction: column;
     padding: 60px 30px;
@@ -58,7 +58,7 @@
     color: white;
     text-transform: uppercase;
     padding: 25px 60px 25px 60px;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     box-shadow: 0 10px 7px rgb(117,78,249, 0.3) ;
     font-weight: bold;
 }

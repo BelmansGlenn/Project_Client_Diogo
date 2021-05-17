@@ -20,7 +20,7 @@ body{
     font-size: 2.5rem;
 }
 .bannermindG .bannerparG{
-    font-size: 1.2rem;
+    font-size: 1rem;
     line-height: 35px;
     color: white;
 }
@@ -40,7 +40,7 @@ body{
     justify-content: center;
     align-items: center;
     margin-top: 30px;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
 }
 .buttonG{
     text-decoration: none;
