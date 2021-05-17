@@ -33,10 +33,11 @@ footer li{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px;
+    padding: 10px;
 }
 footer li:hover{
     opacity: 0.5;
+    cursor: pointer;
 }
 footer li a i{
     color: rgb(190,190,190);
