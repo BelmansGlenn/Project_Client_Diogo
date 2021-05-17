@@ -69,7 +69,12 @@ footer div:nth-child(2){
     border-radius: 50%;
     z-index: -1;
 }
-@media (min-width: 100px) and (max-width: 480px){
+@media (min-width: 100px) and (max-width: 370px){
+    .whitep{
+        font-size: 0.7rem;
+    }
+}
+@media (min-width: 370px) and (max-width: 480px){
     .whitep{
         font-size: 0.8rem;
     }

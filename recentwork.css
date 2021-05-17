@@ -66,8 +66,12 @@
     opacity: 0.9;
     cursor: pointer;
 }
-
-@media (min-width: 100px) and (max-width: 480px){
+@media (min-width: 100px) and (max-width: 370px){
+    .textrecentwork{
+        font-size: 0.7rem;
+    }
+}
+@media (min-width: 370px) and (max-width: 480px){
     .textrecentwork{
         font-size: 0.8rem;
     }
