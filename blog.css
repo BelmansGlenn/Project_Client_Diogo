@@ -42,7 +42,16 @@
     padding-left: 30px;
     padding-right: 30px;
 }
-@media (min-width: 100px) and (max-width: 480px){
+
+@media (min-width: 100px) and (max-width: 370px){
+    .blogImg figure p:nth-child(2){
+        font-size: 0.7rem;
+    }
+    .blogImg figure p:first-child{
+        font-size: 0.7rem;
+    }
+}
+@media (min-width: 370px) and (max-width: 480px){
     .blogImg figure p:nth-child(2){
         font-size: 0.8rem;
     }

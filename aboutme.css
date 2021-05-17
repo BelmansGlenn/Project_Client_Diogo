@@ -87,8 +87,18 @@ p .mediabr{
     display: flex;
     justify-content: space-between;
   }
-
-  @media (min-width: 100px) and (max-width: 480px){
+  @media (min-width: 100px) and (max-width: 370px){
+    .progressMP{
+        font-size: 0.7rem;
+    }
+    .aboutmeG{
+        font-size: 0.7rem;
+    }
+    .infomp i {
+        align-items: center;
+    }
+  }
+  @media (min-width: 370px) and (max-width: 480px){
       .progressMP{
           font-size: 0.8rem;
       }
