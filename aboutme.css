@@ -56,7 +56,7 @@ p .mediabr{
   }
 
   /* SKILLS */
- 
+/*  
   progress {
     box-sizing: border-box;
     display: inline-block;
@@ -82,11 +82,108 @@ p .mediabr{
   progress:after {
     padding: 0;
     float: left;
-  }
+  } */
   .card-title {
     display: flex;
     justify-content: space-between;
   }
+/* 
+.progressValX{
+    animation: load 3s normal forwards;
+    box-shadow: 0 10px 40px -10px #fff;
+    border-radius: 100px;
+    background: #754ef9 ;
+    height: 30px;
+    width: 0;
+} */
+
+.progressX{
+    background:#d9d9d9;
+    justify-content:baseline;
+    align-items: baseline;
+    border-radius: 100px;
+    align-items: center;
+    position: relative;
+    display: flex;
+    height: 0.75em;
+    width: 100%;
+}
+.progressValueHTMLX{
+    animation: loadHTML 3s normal forwards;
+    box-shadow: 0 10px 40px -10px #fff;
+    border-radius: 100px;
+    background: #754ef9 ;
+    height: 0.75em;
+    width: 100%;
+}
+
+@keyframes loadHTML {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 80%;
+    }
+}
+
+.progressValueCSSX{
+    animation: loadCSS 3s normal forwards;
+    box-shadow: 0 10px 40px -10px #fff;
+    border-radius: 100px;
+    background: #754ef9 ;
+    height: 0.75em;
+    width: 100%;
+}
+
+
+@keyframes loadCSS {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 60%;
+    }
+}
+
+.progressValuePhotoX{
+    animation: loadPhoto 3s normal forwards;
+    box-shadow: 0 10px 40px -10px #fff;
+    border-radius: 100px;
+    background: #754ef9 ;
+    height: 0.75em;
+    width: 100%;
+}
+
+
+@keyframes loadPhoto {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 50%;
+    }
+}
+
+.progressValueSketchX{
+    animation: loadSketch 3s normal forwards;
+    box-shadow: 0 10px 40px -10px #fff;
+    border-radius: 100px;
+    background: #754ef9 ;
+    height: 0.75em;
+    width: 100%;
+}
+
+
+@keyframes loadSketch {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 90%;
+    }
+}
+
+
   @media (min-width: 100px) and (max-width: 370px){
     .progressMP{
         font-size: 0.7rem;
